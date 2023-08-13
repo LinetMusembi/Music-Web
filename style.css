@@ -1,0 +1,140 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+ 
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(250, 247, 247);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+  }
+
+  body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.allImages{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+  }
+
+/* Reset some default styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.themes{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+  }
+  
+
+/* Styling for the line-up section */
+.lineup-section {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+
+.act {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.act img {
+  height: 70%;
+  width: 50%;
+}
+
+.act h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.act p {
+    color: #555;
+}
+
+/* Styling for the themed stages section */
+.stages-section {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stage {
+    margin-bottom: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+.stage img{
+    height: 80%;
+    width: 100%;
+}
+
+.stage h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.stage p {
+    color: #555;
+}
+
